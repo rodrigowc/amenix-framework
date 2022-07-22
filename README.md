@@ -1,4 +1,4 @@
-################### What is Amenix FrameWorK ###################
+** What is Amenix FrameWorK **
 
 Amenix FrameWork is an Application Development - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
