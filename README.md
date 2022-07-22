@@ -8,6 +8,8 @@ much faster than you could if you were writing code from scratch, by providing
 a rich set of libraries for commonly needed tasks, as well as a simple
 interface and logical structure to access these libraries.
 
+> We accept security suggestions.
+> We intend to use PHP in its pure form and do not use PDO
 
 **************************
 :new: New Features
@@ -39,13 +41,15 @@ agreement <https://github.com/rodrigowc/amenix-framework/license.txt>`_.
 :smiley: Installation
 ************
 
-1° Create your database with at least the following tables:
-'init' and 'email_config' (>are available in files database.sql)
+**1° Create your database**, 
+> with at least the following tables:
+**'init'** and **'email_config'** (are available in files database.sql)
 
 
-2° Go to /controllers/config/connection.php and configure line 10 with the information pertinent to your database
+**2° Go to /controllers/config/connection.php** and
+>configure line 10 with the information pertinent to your database
 
-'$infoDataBase[]' will receive **4 parameters**, they are:
+>'$infoDataBase[]' will receive **4 parameters**, they are:
 
-Nameserver, Username, Password , Database_name.
+>Nameserver, Username, Password , Database_name.
 
