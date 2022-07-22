@@ -25,12 +25,6 @@ It should work on 5.6.33 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
 
-************
-:smiley: Installation
-************
-
-Please see the `installation section <https://github.com/rodrigowc/amenix-framework>`_
-of the Amenix FrameWork User Guide.
 
 *******
 :heart: License
@@ -38,3 +32,20 @@ of the Amenix FrameWork User Guide.
 
 Please see the `license
 agreement <https://github.com/rodrigowc/amenix-framework/license.txt>`_.
+
+
+
+************
+:smiley: Installation
+************
+
+1° Create your database with at least the following tables:
+'init' and 'email_config' (>are available in files database.sql)
+
+
+2° Go to /controllers/config/connection.php and configure line 10 with the information pertinent to your database
+
+'$infoDataBase[]' will receive **4 parameters**, they are:
+
+Nameserver, Username, Password , Database_name.
+
