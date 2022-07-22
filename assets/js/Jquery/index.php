@@ -1,1 +1,0 @@
-<?php  if (!isset($_SESSION)) { session_start(); }  $_SESSION['error'] = '403'; header('Location: ../../../error'); ?>
