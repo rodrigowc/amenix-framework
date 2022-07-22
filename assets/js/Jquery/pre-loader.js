@@ -1,0 +1,1 @@
+$(window).on('load', function(){ $('#loading .inner').fadeOut(); $('#loading').delay(400).fadeOut('slow'); $('body').delay(400).css({ 'overflow': 'visible' }); });
