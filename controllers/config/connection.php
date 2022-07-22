@@ -2,12 +2,12 @@
 
 /* 
 
-    nameserver, username, password, database
+    nameserver, username, password, database_name
 
 */
 
 // INFO DB
-    $InfoDataBase = array('localhost', 'root', '', 'erp' );
+    $InfoDataBase = array('localhost', 'root', 'password', 'database' );
 
 
 
