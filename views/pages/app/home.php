@@ -15,18 +15,19 @@
       <?php include_once('./views/outhers/nav-bar.php'); ?>
 
       <div class="row">
-        <div class="col s12">
-          <h6>Hello Word!</h6>
-          <p>I'm Here</p>
+        <div class="col s12 center">
+          <h1>Amenix FrameWork</h1>
+          <h5>With powerful features</h5>
+          <h6>Your projects quickly and safely, saving time and providing more productivity</h6>
         </div>
 
-        <div class="col s12">
+        <div class="input-field col s12 center">
           
         </div>
       </div>
 
       <!-- FOOTER PAGE -->
-      <?php include_once('./views/outhers/footer.php'); ?>
+      <!-- <?php include_once('./views/outhers/footer.php'); ?> -->
 
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>
