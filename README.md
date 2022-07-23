@@ -53,3 +53,7 @@ agreement <https://github.com/rodrigowc/amenix-framework/license.txt>`_.
 
 >Nameserver, Username, Password , Database_name.
 
+
+**3° Exchange the file 
+> **"htaccess.txt"** to **".htacess"**, 
+
