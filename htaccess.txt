@@ -1,26 +1,19 @@
+Options -Indexes
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
-
+    
     # REDIRECT TO HTTPS
         RewriteCond %{HTTP:X-Forwarded-Proto} !https
         RewriteCond %{HTTPS} off
         RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-    # PAGES
-        RewriteRule ^home?$ "/amenix-framework/?page=home" [QSA,L,NC]
-
         
-    # NEW / ADD /
 
-    # AUTH
+    # PAGES | URL | LINK
+        RewriteRule ^([A-Z\/-]+)/?$ index.php?page=$1 [QSA,L,NC]
 
-    # FORMS
-        # UPDATE
-        
-        # CREATE
-        
-        # READ
-        
-        # AUTH
 
+    # ERROR PAGES
+        # ErrorDocument 404 /sitename/?page=error&error=404
+        
 </IfModule>
